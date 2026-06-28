@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main()
+{
+    int principal=3000;
+    float rate=8.5;
+    int time=3;
+    float simpleinterest;
+    simpleinterest=principal*rate*time/100;
+    printf("pricipal is %d",principal);
+    printf("\nrate is %f",rate);
+    printf("\ntime is %d",time);
+    printf("\n simpleinterest is %f",simpleinterest);
+} 
